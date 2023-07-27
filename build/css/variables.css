@@ -1,0 +1,58 @@
+/**
+ * Do not edit directly
+ * Generated on Wed, 05 Apr 2023 05:39:20 GMT
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600;700&display=swap');
+:root {
+    --pyy-background-primary: linear-gradient(90deg, rgba(251, 250, 245, 1) 0%, rgba(255, 255, 252, 1) 100%);
+    --pyy-layer-primary: #FFFFFC;
+    --pyy-layer-secondary: #1e293b;
+    --pyy-text-primary: #1e293b;
+    --pyy-text-secondary: #475569;
+    --pyy-text-error: #f0425f;
+    --pyy-text-on-color: #ffffff;
+    --pyy-text-on-color-disabled: #94a3b8;
+    --pyy-link-primary: #4D80E6;
+    --pyy-link-primary-hover: #3664c0;
+    --pyy-link-on-color: #FFFFFF;
+    --pyy-link-on-color-hover: #35B1FC;
+    --pyy-button-primary: #334155;
+    --pyy-button-primary-hover: #1e293b;
+    --pyy-button-primary-active: #0f172a;
+    --pyy-button-secondary: #4D80E6;
+    --pyy-button-secondary-hover: #3664c0;
+    --pyy-button-secondary-active: #003a6b;
+    --pyy-button-danger: #f0425f;
+    --pyy-button-danger-hover: #c2354c;
+    --pyy-button-danger-active: #651b27;
+    --pyy-button-disabled: #e2e8f0;
+    --pyy-border-primary: #cbd5e1;
+    --pyy-border-disabled: #e2e8f0;
+    --pyy-font-families-roboto-mono: Roboto Mono;
+    --pyy-line-heights-0: 16px;
+    --pyy-line-heights-1: 24px;
+    --pyy-line-heights-2: 28px;
+    --pyy-line-heights-3: 32px;
+    --pyy-line-heights-4: 36px;
+    --pyy-line-heights-5: 40px;
+    --pyy-line-heights-6: AUTO;
+    --pyy-font-weights-roboto-mono-0: 300;
+    --pyy-font-weights-roboto-mono-1: 400;
+    --pyy-font-weights-roboto-mono-2: 500;
+    --pyy-font-weights-roboto-mono-3: 700;
+    --pyy-font-size-0: 12px;
+    --pyy-font-size-1: 14px;
+    --pyy-font-size-2: 16px;
+    --pyy-font-size-3: 18px;
+    --pyy-font-size-4: 20px;
+    --pyy-font-size-5: 24px;
+    --pyy-font-size-6: 30px;
+    --pyy-font-size-7: 36px;
+    --pyy-font-size-8: 48px;
+    --pyy-letter-spacing-0: 0%;
+    --pyy-paragraph-spacing-0: 0;
+    --pyy-text-case-none: none;
+    --pyy-text-decoration-none: none;
+    --pyy-paragraph-indent-0: 0px;
+}

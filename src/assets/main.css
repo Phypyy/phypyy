@@ -1,0 +1,138 @@
+@import "../../build/css/variables.css";
+
+/* ========== BASE ========== */
+
+* {
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    background: rgb(254, 255, 252);
+    background: linear-gradient(180deg, rgba(251, 250, 245, 1) 0%, rgba(255, 252, 252, 1) 100%);
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    color: var(--pyy-text-primary);
+    font-size: var(--pyy-font-size-8);
+    line-height: var(--pyy-line-heights-6);
+    font-weight: var( --pyy-font-weights-roboto-mono-3);
+}
+
+h4 {
+    color: var(--pyy-text-primary);
+    font-size: var(--pyy-font-size-5);
+    line-height: var(--pyy-line-heights-3);
+    font-weight: var( --pyy-font-weights-roboto-mono-2);
+}
+
+p {
+    color: var(--pyy-text-secondary);
+    font-size: var(--pyy-font-size-2);
+    line-height: var(--pyy-line-heights-1);
+    font-weight: var( --pyy-font-weights-roboto-mono-2);
+}
+
+a {
+    color: var(--pyy-link-primary);
+    text-decoration: none;
+    font-size: var(--pyy-font-size-2);
+    line-height: var(--pyy-line-heights-1);
+    font-weight: var( --pyy-font-weights-roboto-mono-2);
+}
+
+a:hover {
+    color: var(--pyy-link-primary-hover);
+}
+
+img {
+    border-radius: 8px;
+}
+
+.layout {
+    display: flex;
+}
+
+.welcome {
+    padding-top: 24px;
+    padding-bottom: 72px;
+    margin-left: 72px;
+    margin-right: 72px;
+}
+
+.highlight p {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 16px;
+    font-size: var(--pyy-font-size-2);
+    line-height: var(--pyy-line-heights-1);
+    font-weight: var(--pyy-font-weights-roboto-mono-2);
+    color: var(--pyy-text-secondary);
+    background-color: var(--pyy-border-primary);
+    border-radius: 4px;
+}
+
+.highlightRetro p {
+    padding: 16px;
+    font-size: var(--pyy-font-size-3);
+    line-height: var(--pyy-line-heights-2);
+    font-weight: var(--pyy-font-weights-roboto-mono-1);
+    color: var(--pyy-text-on-color);
+    background-color: var(--pyy-link-primary);
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 740px) {
+    .welcome {
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    h1 {
+        font-size: var(--pyy-font-size-6);
+        line-height: var(--pyy-line-heights-4);
+    }
+    h4 {
+        font-size: var(--pyy-font-size-3);
+        line-height: var(--pyy-line-heights-2);
+    }
+    p {
+        font-size: var(--pyy-font-size-2);
+        line-height: var(--pyy-line-heights-1);
+    }
+    .highlight p {
+        font-weight: var(--pyy-font-weights-roboto-mono-1);
+        font-size: var(--pyy-font-size-2);
+        line-height: var(--pyy-line-heights-1);
+    }
+    .highlightRetro p {
+        font-weight: var(--pyy-font-weights-roboto-mono-1);
+        font-size: var(--pyy-font-size-2);
+        line-height: var(--pyy-line-heights-1);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .welcome {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    p a {
+        font-size: var(--pyy-font-size-1);
+        line-height: var(--pyy-line-heights-0);
+    }
+    .highlight p {
+        font-size: var(--pyy-font-size-1);
+        line-height: var(--pyy-line-heights-0);
+    }
+    .highlightRetro p {
+        font-size: var(--pyy-font-size-1);
+        line-height: var(--pyy-line-heights-0);
+    }
+}
